@@ -1,0 +1,70 @@
+a{
+    text-decoration: none;
+    color:black
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Spline Sans Mono', monospace;
+    background-color: peachpuff
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+}
+.navbar li {
+    margin: 0 15px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.navbar a:hover {
+    background-color: rgb(235, 107, 128);
+}
+main {
+    margin: 20px;
+}
+section {
+    width: 100%;
+    padding: 50px 0;
+    color: black;
+}
+#home {
+    background-color: rgb(235, 107, 128);
+   
+}
+#about {
+    background-color: pink;
+}
+#services {
+    background-color: rgb(235, 107, 128);;
+}
+#contact {
+    background-color: pink;
+}
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2 {
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
